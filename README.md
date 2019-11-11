@@ -1,7 +1,7 @@
 # Unit-2-project
 
 ## Development
-## a traffic light with arduino 
+## A traffic light with arduino 
 ```.c
 void setup()
 {
@@ -26,3 +26,4 @@ void loop()
   delay(1000); // Wait for 1000 millisecond(s)
 }
 ```
+A traffic light with arduino is an easy program used to introduce us into how to use the arduino.
