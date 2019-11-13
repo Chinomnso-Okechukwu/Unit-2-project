@@ -43,4 +43,15 @@ These are the three phases of the traffic light.
 NOW LETSSSSSS GOOOOOO!!! VROOM VROOM!!
 
 ### Data Types in Arduino
-
+| Data Type     | Range                          | Use or Description                                                 |
+|---------------|--------------------------------|--------------------------------------------------------------------|
+| Boolean       | 0 or 1                         | Simple true or false statements                                    |
+| Long          | -2,147,483,648 - 2,147,483,648 | Negative integers, positive integers or 0. Eg. Population of Japan |
+| Word          | 0 - 65535                      | Positive integers and 0.                                           |
+| Char          | -128 - 127                     | English letters, numbers and some special characters.              |
+| Float         | -3,4028235e38 - 3,4028235e38   | Decimals and scientific notation. Eg. The numerical value of pi.   |
+| Int           | -32,768 - 32,767               | Negative, positive integers, and 0.                                |
+| Unsigned Char | 0 - 255                        | Positive integers and 0. Eg. Height of man                         |
+| Unsigned Long | 0 - 4,294,967,295              | Positive integers and 0.                                           |
+| Void          | ------                         | It is a function that returns no values                            |
+| Unsigned Int  | 0 - 65535                      | Positive integers and 0.                                           |
