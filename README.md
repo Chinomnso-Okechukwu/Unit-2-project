@@ -29,4 +29,4 @@ void loop()
 ```
 A traffic light with arduino is an easy program used to introduce us into how to use the arduino.
 
-![TrafficLight](Amber light.png)
+![TrafficLight](Amberlight.png)
