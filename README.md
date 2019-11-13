@@ -40,3 +40,4 @@ These are the three phases of the traffic light.
 
 ![TrafficLight](greenlight.png)
 **Fig. 3** This diagram shows the green light on indicating GO.
+NOW LETSSSSSS GOOOOOO!!! VROOM VROOM!!
