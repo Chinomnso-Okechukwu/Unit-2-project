@@ -30,7 +30,7 @@ void loop()
 A traffic light with arduino is a good way to be introduced into how to use the arduino.
 
 ### STOP!, GET READY!, GOOOOOOO!!
-Those are the three phases of the traffic light.
+These are the three phases of the traffic light.
 
 ![TrafficLight](redlight.png)
 **Fig. 1** This diagram shows the red light on indicating STOP.
