@@ -96,3 +96,66 @@ This was very important to understand in the creation of our next program.
 | 1    | 1    | 1    | 0    | 1    | 29     |   |   |   |
 | 1    | 1    | 1    | 1    | 0    | 30     |   |   |   |
 | 1    | 1    | 1    | 1    | 1    | 31     |   |   |   |
+
+```.c
+int bitA = 13;
+int bitB = 12;
+int bitC = 11;
+int bitD = 10;
+int bitE = 9;
+
+void setup()
+{
+  Serial.begin(9600);
+  pinMode(bitA, OUTPUT);
+  pinMode(bitB, OUTPUT);
+  pinMode(bitC, OUTPUT);
+  pinMode(bitD, OUTPUT);
+  pinMode(bitE, OUTPUT);
+  
+  for (int n = 0; n <= 31; n++) {
+  	//bit E
+    if (n % 2 == 1) {
+    	digitalWrite(bitE, HIGH);
+  	}else
+    {
+      digitalWrite(bitE, LOW);
+    }
+    //bit D 
+    if (n % 4 > 1) {
+      digitalWrite(bitD, HIGH);
+     }else
+    {
+      digitalWrite(bitD, LOW);
+    }
+     //bit C
+    if (n % 8 > 3) {
+      digitalWrite(bitC, HIGH);
+    }else
+    {
+      digitalWrite(bitC, LOW);
+    }
+     //bit B
+    if (n % 16 > 7) {
+      digitalWrite(bitB, HIGH);
+    }else
+    {
+      digitalWrite(bitB, LOW);
+    }
+     //bit A
+    if (n % 32 > 15) {
+      digitalWrite(bitA, HIGH);
+    }else
+    {
+      digitalWrite(bitA, LOW);
+    }
+    delay(2000);
+  }
+}
+
+
+void loop()
+{
+  
+}
+```
