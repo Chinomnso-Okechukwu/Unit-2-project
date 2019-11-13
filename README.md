@@ -55,3 +55,6 @@ NOW LETSSSSSS GOOOOOO!!! VROOM VROOM!!
 | Unsigned Long | 0 - 4,294,967,295              | Positive integers and 0.                                           |
 | Void          | ------                         | It is a function that returns no values                            |
 | Unsigned Int  | 0 - 65535                      | Positive integers and 0.                                           |
+
+### Conversion of base 10 to base 2
+
