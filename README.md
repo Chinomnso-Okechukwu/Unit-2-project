@@ -27,7 +27,7 @@ void loop()
   delay(1000); // Wait for 1000 millisecond(s)
 }
 ```
-A traffic light with arduino is an easy program used to introduce us into how to use the arduino.
+A traffic light with arduino is a good way to be introduced into how to use the arduino.
 
 ![TrafficLight](redlight.png)
 
