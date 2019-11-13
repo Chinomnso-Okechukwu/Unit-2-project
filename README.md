@@ -57,4 +57,6 @@ NOW LETSSSSSS GOOOOOO!!! VROOM VROOM!!
 | Unsigned Int  | 0 - 65535                      | Positive integers and 0.                                           |
 
 ### Conversion of base 10 to base 2
-
+This was very important to understand in the creation of our next program.
+![BaseChange](baseconversion.png)
+**Fig. 3** This diagram shows how to convert numbers from base 10 to base 2.
