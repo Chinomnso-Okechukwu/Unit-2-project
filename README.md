@@ -31,3 +31,6 @@ A traffic light with arduino is an easy program used to introduce us into how to
 
 ![TrafficLight](redlight.png)
 
+![TrafficLight](amberlight.png)
+
+![TrafficLight](greenlight.png)
