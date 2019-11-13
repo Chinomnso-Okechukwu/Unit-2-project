@@ -30,7 +30,10 @@ void loop()
 A traffic light with arduino is a good way to be introduced into how to use the arduino.
 
 ![TrafficLight](redlight.png)
+**Fig. 1** This diagram shows the red light on.
 
 ![TrafficLight](amberlight.png)
+**Fig. 2** This diagram shows the amber light on.
 
 ![TrafficLight](greenlight.png)
+**Fig. 3** This diagram shows the green light on.
