@@ -1,6 +1,7 @@
 # Unit-2-project
 
-## Development
+Development
+-----------
 ## A traffic light with arduino 
 ```.c
 void setup()
@@ -27,3 +28,5 @@ void loop()
 }
 ```
 A traffic light with arduino is an easy program used to introduce us into how to use the arduino.
+
+![TrafficLight](amberlight.png)
