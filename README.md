@@ -60,6 +60,27 @@ NOW LETSSSSSS GOOOOOO!!! VROOM VROOM!!
 This was very important to understand in the creation of our next program.
 ![BaseChange](baseconversion.png)
 **Fig. 3** This diagram shows how to convert numbers from base 10 to base 2.
+### Conversion of base 10 to other bases
+1. Get the number.
+1. Divide the number continuously by the new base until you get zero.
+1. For each time you divide by the new base record the remainder.
+1. Write the remainders in reverse form.
+1. This gives you the new number in the new base.
+### Conversion of base 2 to base 10.
+1. Write down the binary number.
+1. Write down the position of the individual numbers (1’s and 0’s) starting from the furthermost right. The first digit should have a position zero.
+1. Express the positions in terms of powers of two. (eg. 8^0 for position zero)
+1. Multiply the individual numbers by the powers of two
+1. Add the products.
+### Conversion of other bases to base 10. 
+1. Write down the number.
+1. Write down the position of the individual numbers starting from the furthermost right. The first digit should have a position zero.
+1. Express the positions in terms of powers of the base. (eg. 8^0 for position zero)
+1. Multiply the individual numbers by the powers of the base.
+1. Add the products.
+
+### The Hexadecimal base.
+In the decimal base, we have digits only from 0 to the number before 10 (0-9). That is the same for every other base. But for the hexademical base, the numbers (10-15) aren't expressed as single digits. Hence, we express them as digits. A-10, B-11, C-12, D-13, E-14 and F-15. 
 
 ### Creating a counter from 0 to 31 in binary using LED lights.
 | bitA | bitB | bitC | bitD | bitE | Number |   |   |   |
@@ -159,3 +180,9 @@ void loop()
   
 }
 ```
+
+### Counting in different bases
+
+### Boolean Operators
+
+### Logic Gates
