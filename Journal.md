@@ -5,4 +5,7 @@ Reflection for Nov 13.
 I made reference to my knowledge on base conversion.
 I learnt about data types in arduino and their ranges.
 I made a counter from 0-31 using arduino!!
-BEST COMP SCI. CLASS ever!
+
+Reflection for Nov 19.
+I solved a lot of questions on base conversion. It helped me refresh my memory on base conversion.
+I learnt Boolean operations and how to use them to solve the three push buttons and two outputs.
