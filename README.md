@@ -213,6 +213,6 @@ AND: In the AND gate, the output is true only if both or all of the inputs are t
 
 NOT: NOT reverses or inverts the input.
 
-EXCLUSIVE OR (XOR): In this gate, the output if true only when one of the inputs is true that a time.
+EXCLUSIVE OR (XOR): In this gate, the output if true only when one of the inputs is true at a time.
 
 ### Interpreting questions on Boolean operators using the logic gates.
