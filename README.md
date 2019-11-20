@@ -199,5 +199,7 @@ Different bases have different numbers but similar patterns.
 | 10      | 1010   | 101        | 20        | 12         |
 
 ### Boolean Operators
+![BooleanOperators](booleanoperators.JPG)
+**Fig. 4** This figure shows the fundamental Boolean operators and their equivalents in basic arithmetic operations. 
 
 ### Logic Gates
