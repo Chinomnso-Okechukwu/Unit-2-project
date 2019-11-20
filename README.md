@@ -203,3 +203,4 @@ Different bases have different numbers but similar patterns.
 **Fig. 4** This figure shows the fundamental Boolean operators and their equivalents in basic arithmetic operations. 
 
 ### Logic Gates
+### Truth Tables
