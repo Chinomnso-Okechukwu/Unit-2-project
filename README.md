@@ -204,5 +204,15 @@ Different bases have different numbers but similar patterns.
 
 ### Logic Gates
 ### Truth Tables
+![TruthTables](truthtables.JPG)
+**Fig. 5** This figure shows the truth tables for the basic Boolean operators.
+
+OR: In the OR gate, the output is true only if either of the inputs are true.
+
+AND: In the AND gate, the output is true only if both or all of the inputs are true.
+
+NOT: NOT reverses or inverts the input.
+
+EXCLUSIVE OR (XOR): In this gate, the output if true only when one of the inputs is true that a time.
 
 ### Interpreting questions on Boolean operators using the logic gates.
