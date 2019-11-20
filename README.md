@@ -204,3 +204,5 @@ Different bases have different numbers but similar patterns.
 
 ### Logic Gates
 ### Truth Tables
+
+### Interpreting questions on Boolean operators using the logic gates.
