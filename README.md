@@ -183,6 +183,7 @@ void loop()
 
 ### Counting in different bases
 Different bases have different numbers but similar patterns. 
+
 | decimal | binary | base three | base five | base eight |
 |---------|--------|------------|-----------|------------|
 | 0       | 0      | 0          | 0         | 0          |
