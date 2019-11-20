@@ -182,6 +182,20 @@ void loop()
 ```
 
 ### Counting in different bases
+Different bases have different numbers but similar patterns. 
+| decimal | binary | base three | base five | base eight |
+|---------|--------|------------|-----------|------------|
+| 0       | 0      | 0          | 0         | 0          |
+| 1       | 1      | 1          | 1         | 1          |
+| 2       | 10     | 2          | 2         | 2          |
+| 3       | 11     | 10         | 3         | 3          |
+| 4       | 100    | 11         | 4         | 4          |
+| 5       | 101    | 12         | 10        | 5          |
+| 6       | 110    | 20         | 11        | 6          |
+| 7       | 111    | 21         | 12        | 7          |
+| 8       | 1000   | 22         | 13        | 10         |
+| 9       | 1001   | 100        | 14        | 11         |
+| 10      | 1010   | 101        | 20        | 12         |
 
 ### Boolean Operators
 
