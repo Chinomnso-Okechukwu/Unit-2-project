@@ -219,4 +219,11 @@ EXCLUSIVE OR (XOR): In this gate, the output if true only when one of the inputs
 
 ### What is Usability?
 Usability according to IB CompSci Hub is the ease of use and learnability of a human made object. 
-Retrieved from https://ib.compscihub.net/wp-content/uploads/2018/06/1.2.12.pdf
+Retrieved from https://ib.compscihub.net/wp-content/uploads/2018/06/1.2.12.pdf on 25th November 2019.
+
+### Human Centered Design(HCD)
+Principle of Design
+1. Discoverability
+2. Feedback
+
+Retrieved from POSNER J, MARS R. "It's not you. Bad doors are everywhere" 2016 on 25tg November 2019.
