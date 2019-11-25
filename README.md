@@ -216,3 +216,6 @@ NOT: NOT reverses or inverts the input.
 EXCLUSIVE OR (XOR): In this gate, the output if true only when one of the inputs is true at a time.
 
 ### Interpreting questions on Boolean operators using the logic gates.
+
+### What is Usability?
+Usability according to IB CompSci Hub is the ease of use and learnability of a human made object.
