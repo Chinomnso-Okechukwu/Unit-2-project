@@ -229,4 +229,5 @@ Principle of Design
 Retrieved from POSNER J, MARS R. "It's not you. Bad doors are everywhere" 2016 on 25tg November 2019.
 
 ### 2 push button keyboard.
-
+![Twopushbuttons](2keysplan.png)
+**Fig. 6** This figure shows the initial plans for developing the the two push buttons keyboard.
