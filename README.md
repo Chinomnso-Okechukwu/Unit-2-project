@@ -218,4 +218,5 @@ EXCLUSIVE OR (XOR): In this gate, the output if true only when one of the inputs
 ### Interpreting questions on Boolean operators using the logic gates.
 
 ### What is Usability?
-Usability according to IB CompSci Hub is the ease of use and learnability of a human made object.
+Usability according to IB CompSci Hub is the ease of use and learnability of a human made object. 
+Retrieved from https://ib.compscihub.net/wp-content/uploads/2018/06/1.2.12.pdf
