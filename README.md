@@ -227,3 +227,6 @@ Principle of Design
 2. Feedback
 
 Retrieved from POSNER J, MARS R. "It's not you. Bad doors are everywhere" 2016 on 25tg November 2019.
+
+### 2 push button keyboard.
+
