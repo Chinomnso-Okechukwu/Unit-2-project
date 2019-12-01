@@ -170,6 +170,7 @@ In the decimal base, we have digits only from 0 to the number before 10 (0-9). T
   }
 }
 ```
+The important part of this code is the use of modulo operation(%) to determine when the LEDs come on and off.
 
 ### Counting in different bases
 Different bases have different numbers but similar patterns. 
@@ -221,13 +222,16 @@ Principle of Design[2]
 
 ### Success criteria for making this keyboard.
 ① The functionality of the keyboard should be DISCOVERABLE by the user.
+
 ① The keyboard should provide FEEDBACK to the user.
+
 ① The system must be EFFICIENT(allows the user to type words per min)
 
 The whole idea of this 2 push button keyboard is to be able to communicate by using only two keys.
 
 ### Key Functionality
-The left key has the letter "A" and the left arrow below it. This shows that this key only inputs alphabets. 
+The left key has the letter "A" and the left arrow below it. This shows that this key only inputs alphabets.
+
 The right key has the number "1" and the right arrow below it. This key only inputs numbers and the space bar.
 
 ### Mechanism
