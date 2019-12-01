@@ -1,4 +1,12 @@
 # Unit-2-project
+## Definition of the problem
+Who is the client? what is the need?
+
+## Proposed solution
+Mention the tools you will use, and why those.
+
+## Success criteria
+
 
 Development
 -----------
@@ -218,18 +226,33 @@ EXCLUSIVE OR (XOR): In this gate, the output if true only when one of the inputs
 ### Interpreting questions on Boolean operators using the logic gates.
 
 ### What is Usability?
-Usability according to IB CompSci Hub is the ease of use and learnability of a human made object. 
-Retrieved from https://ib.compscihub.net/wp-content/uploads/2018/06/1.2.12.pdf on 25th November 2019.
+Usability according to IB CompSci Hub is the ease of use and learnability of a human made object [1]. 
 
 ### Human Centered Design(HCD)
 Principle of Design
 1. Discoverability
 2. Feedback
 
-Retrieved from POSNER J, MARS R. "It's not you. Bad doors are everywhere" 2016 on 25tg November 2019.
+Retrieved from POSNER J, MARS R. "It's not you. Bad doors are everywhere" 2016 on 25th November 2019.
 
 ### 2 push button keyboard.
 ![Twopushbuttons](2keysplan.png)
 **Fig. 6** This figure shows the initial plans for developing the the two push buttons keyboard.
+
+Success criteria for making this keyboard.
+① The functionality of the keyboard should be DISCOVERABLE by the user.
+① The keyboard should provide FEEDBACK to the user.
+① The system must be EFFICIENT.
+
+The whole idea of this 2 push button keyboard is to be able to communicate by using only two keys.
+Key Functionality 
+The left key has the letter "A" and the left arrow below it. This shows that this key only inputs alphabets. 
+The right key has the number "1" and the right arrow below it. This key only inputs numbers and the space bar.
+
+Mechanism
+Pushing the left button indicates that one is entering an alphabet and pushing the right button indicates a number. When either button is pressed, the button lose their functionality and become arrow keys. The arrow keys are used to navigate to a desired character.
+
+## References
+[1] Retrieved from https://ib.compscihub.net/wp-content/uploads/2018/06/1.2.12.pdf on 25th November 2019.
 
 
