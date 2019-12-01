@@ -3,6 +3,7 @@
 Who is the client? what is the need?
 
 ## Proposed solution
+
 Mention the tools you will use, and why those.
 
 ## Success criteria
@@ -48,6 +49,7 @@ These are the three phases of the traffic light.
 
 ![TrafficLight](greenlight.png)
 **Fig. 3** This diagram shows the green light on indicating GO.
+
 NOW LETSSSSSS GOOOOOO!!! VROOM VROOM!!
 
 ### Data Types in Arduino
@@ -127,21 +129,7 @@ In the decimal base, we have digits only from 0 to the number before 10 (0-9). T
 | 1    | 1    | 1    | 1    | 1    | 31     |   |   |   |
 
 ```.c
-int bitA = 13;
-int bitB = 12;
-int bitC = 11;
-int bitD = 10;
-int bitE = 9;
 
-void setup()
-{
-  Serial.begin(9600);
-  pinMode(bitA, OUTPUT);
-  pinMode(bitB, OUTPUT);
-  pinMode(bitC, OUTPUT);
-  pinMode(bitD, OUTPUT);
-  pinMode(bitE, OUTPUT);
-  
   for (int n = 0; n <= 31; n++) {
   	//bit E
     if (n % 2 == 1) {
@@ -180,12 +168,6 @@ void setup()
     }
     delay(2000);
   }
-}
-
-
-void loop()
-{
-  
 }
 ```
 
@@ -229,30 +211,31 @@ EXCLUSIVE OR (XOR): In this gate, the output if true only when one of the inputs
 Usability according to IB CompSci Hub is the ease of use and learnability of a human made object [1]. 
 
 ### Human Centered Design(HCD)
-Principle of Design
+Principle of Design[2]
 1. Discoverability
 2. Feedback
-
-Retrieved from POSNER J, MARS R. "It's not you. Bad doors are everywhere" 2016 on 25th November 2019.
 
 ### 2 push button keyboard.
 ![Twopushbuttons](2keysplan.png)
 **Fig. 6** This figure shows the initial plans for developing the the two push buttons keyboard.
 
-Success criteria for making this keyboard.
+### Success criteria for making this keyboard.
 ① The functionality of the keyboard should be DISCOVERABLE by the user.
 ① The keyboard should provide FEEDBACK to the user.
-① The system must be EFFICIENT.
+① The system must be EFFICIENT(allows the user to type words per min)
 
 The whole idea of this 2 push button keyboard is to be able to communicate by using only two keys.
-Key Functionality 
+
+### Key Functionality
 The left key has the letter "A" and the left arrow below it. This shows that this key only inputs alphabets. 
 The right key has the number "1" and the right arrow below it. This key only inputs numbers and the space bar.
 
-Mechanism
-Pushing the left button indicates that one is entering an alphabet and pushing the right button indicates a number. When either button is pressed, the button lose their functionality and become arrow keys. The arrow keys are used to navigate to a desired character.
+### Mechanism
+Pushing the left button indicates that one is entering an alphabet and pushing the right button indicates a number. When either button is pressed, the button lose their functionality and become arrow keys. The arrow keys are used to navigate to a desired character. When a character is left unmoved for more than a second, the system prints out the character. After the character is printed, the right and left buttons return to being an alpha and a numeric key respectively.
+The reference point for the alpha key is "A". Pushing the left arrow moves through the alphabets in a reverse order( A to Z,Y,X...) while pushing the right arrow moves through the alphabets the conventional way( A to B,C,D...).
 
 ## References
 [1] Retrieved from https://ib.compscihub.net/wp-content/uploads/2018/06/1.2.12.pdf on 25th November 2019.
 
+[2] Retrieved from https://www.youtube.com/watch?v=yY96hTb8WgI on 25th November 2019.
 
