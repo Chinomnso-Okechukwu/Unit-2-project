@@ -12,6 +12,7 @@ Mention the tools you will use, and why those.
 Development
 -----------
 ## A traffic light with arduino 
+A traffic light with arduino is a good way to be introduced into how to use the arduino.
 ```.c
 void setup()
 {
@@ -36,7 +37,9 @@ void loop()
   delay(1000); // Wait for 1000 millisecond(s)
 }
 ```
-A traffic light with arduino is a good way to be introduced into how to use the arduino.
+"pinMode" function is used to decide whether a pin is an input or output.
+
+"digitalWrite" function is used to set a high(on) or low(off) value to a pin. 
 
 ### STOP!, GET READY!, GOOOOOOO!!
 These are the three phases of the traffic light.
