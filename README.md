@@ -1,12 +1,14 @@
 # Unit-2-project
-## Definition of the problem
+## Planning
+
+### Definition of the problem
 Who is the client? what is the need?
 
-## Proposed solution
+### Proposed solution
 
 Mention the tools you will use, and why those.
 
-## Success criteria
+### Success criteria
 
 
 Development
