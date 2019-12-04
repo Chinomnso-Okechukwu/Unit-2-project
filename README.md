@@ -2,11 +2,12 @@
 ## Planning
 
 ### Definition of the problem
-Who is the client? what is the need?
+The temperatures on earth have risen so much. People can not even bear it anymore. Millions of people are dying. However, a team of people have made a trip to Mars to see if it's habitable. They left about two months ago and concluded that it's very habitable. But durinh that time, communication was very difficult. So, NASA wants to create an english communication system that allows people on Earth to communicate easily with people on Mars.
 
 ### Proposed solution
 
-Mention the tools you will use, and why those.
+I am going to make use of the arduino c to develop this Martian decoder. 
+
 
 ### Success criteria
 
