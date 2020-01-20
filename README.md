@@ -13,7 +13,15 @@ I am going to make use of the arduino c to develop this Martian decoder.
 It must be able to communicate with people easily across planets.
 
 ## Solution Overview
+
 ### Design
+![Twopushbuttons](2keysplan.png)
+**Fig. 6** This figure shows the initial plans for developing the the two push buttons keyboard.
+
+![Englishinput](englishinput2.png)
+![Englishinput](englishinput3.png)
+![Englishinput](englishinput4.png)
+**Fig. 7,8,9** These flowcharts show the process of developing the English Input System.
 
 Development
 -----------
