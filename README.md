@@ -12,6 +12,9 @@ I am going to make use of the arduino c to develop this Martian decoder.
 ### Success criteria
 It must be able to communicate with people easily across planets.
 
+## Solution Overview
+### Design
+
 Development
 -----------
 ## A traffic light with arduino 
