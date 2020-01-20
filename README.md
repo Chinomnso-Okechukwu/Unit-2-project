@@ -2,10 +2,10 @@
 ## Planning
 
 ### Definition of the problem
-The temperatures on earth have risen so much. People can not even bear it anymore. Millions of people are dying. However, a team of people have made a trip to Mars to see if it's habitable. They left about two months ago and concluded that it's very habitable. But durinh that time, communication was very difficult. So, NASA wants to create an english communication system that allows people on Earth to communicate easily with people on Mars.
+This definitely came as a surprise. A war against aliens on Mars. After two scares of a potential World War 3, it was never a concern for people that we would start fighting against other planets. It is the first inter-planetry war and it will be called the Stars Wars(just like the well-known movie). Aware of the extraordinary abilities of the Martians and in desperation not to lose, NASA has demanded drafting about a quarter of the world's population to fight the war. Many families of the selected people are reluctant to send off their relatives since this war is beyond our planet. They only way they can be comfortable with this decision is if a two-way commuincation can be established between them and their relative(s). This means  creating a stable means of communication between the Earth and Mars.  NASA has set up many communication stations around the world and has said that it will set up its portable station immediately they arrive on Mars. Unfortunately, The station in Earth can only communicate using Morse Code and the station on Mars can only communicate in Binary Code. Humans are not conversant with these languages. The identified clients for this project are the people on Earth who would like to keep communicating with one or more of their relatives in the war and also those in the war. We are talikng about the whole Earth basically.
 
 ### Proposed solution
-
+We are going to create a device that ensures stable communication between the people on Earth and on Mars. It will be called "the Martian Decoder". 
 I am going to make use of the arduino c to develop this Martian decoder. 
 
 
