@@ -292,7 +292,7 @@ As mentioned earlier in the definition of the problem, the station in Earth can 
 | 6      | DASH | DOT  | DOT  | DOT  | DOT  |
 | 7      | DASH | DASH | DOT  | DOT  | DOT  |
 | 8      | DASH | DASH | DASH | DOT  | DOT  |
-| 9      | DASH | DASH | DASH | DASH | DOT  |
+| 9      | DASH | DASH | DASH | DASH | DOT  | [4]
 
 1. The length of a dot is one second(unit).
 2. A dash is three seconds(units).
