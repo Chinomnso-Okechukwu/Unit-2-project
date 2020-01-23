@@ -255,7 +255,7 @@ Principle of Design[2]
 ### Morse Code
 As mentioned earlier in the definition of the problem, the station in Earth can only communicate using Morse Code. Hence it is important we know what the Morse Code is all about. According to Wikipedia, Morse Code is a method used in telecommunication to excode text characters as standardized sequences of two different signal durations, called "dots" and "dashes". Morse Code is named after Samuel B.F Morse, an inventor of the telegraph.[3]
 
-| LETTER |      |      |      |      |      |
+| CHARACTER |      |      |      |      |      |
 |--------|------|------|------|------|------|
 | A      | DOT  | DASH |      |      |      |
 | B      | DASH | DOT  | DOT  | DOT  |      |
