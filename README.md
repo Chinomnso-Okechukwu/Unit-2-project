@@ -18,6 +18,24 @@ It must be able to communicate with people easily across planets.
 ![Twopushbuttons](2keysplan.png)
 **Fig. 6** This figure shows the initial plans for developing the the two push buttons keyboard.
 
+### Success criteria for making this keyboard.
+① The functionality of the keyboard should be DISCOVERABLE by the user.
+
+① The keyboard should provide FEEDBACK to the user.
+
+① The system must be EFFICIENT(allows the user to type words per min)
+
+The whole idea of this 2 push button keyboard is to be able to communicate by using only two keys.
+
+### Key Functionality
+The left key has the letter "A" and the left arrow below it. This shows that this key only inputs alphabets.
+
+The right key has the number "1" and the right arrow below it. This key only inputs numbers and the space bar.
+
+### Mechanism
+Pushing the left button indicates that one is entering an alphabet and pushing the right button indicates a number. When either button is pressed, the button lose their functionality and become arrow keys. The arrow keys are used to navigate to a desired character. When a character is left unmoved for more than a second, the system prints out the character. After the character is printed, the right and left buttons return to being an alpha and a numeric key respectively.
+The reference point for the alpha key is "A". Pushing the left arrow moves through the alphabets in a reverse order( A to Z,Y,X...) while pushing the right arrow moves through the alphabets the conventional way( A to B,C,D...).
+
 ![Englishinput](englishinput2.png)
 ![Englishinput](englishinput3.png)
 ![Englishinput](englishinput4.png)
@@ -233,27 +251,6 @@ Principle of Design[2]
 1. Discoverability
 2. Feedback
 
-### 2 push button keyboard.
-![Twopushbuttons](2keysplan.png)
-**Fig. 6** This figure shows the initial plans for developing the the two push buttons keyboard.
-
-### Success criteria for making this keyboard.
-① The functionality of the keyboard should be DISCOVERABLE by the user.
-
-① The keyboard should provide FEEDBACK to the user.
-
-① The system must be EFFICIENT(allows the user to type words per min)
-
-The whole idea of this 2 push button keyboard is to be able to communicate by using only two keys.
-
-### Key Functionality
-The left key has the letter "A" and the left arrow below it. This shows that this key only inputs alphabets.
-
-The right key has the number "1" and the right arrow below it. This key only inputs numbers and the space bar.
-
-### Mechanism
-Pushing the left button indicates that one is entering an alphabet and pushing the right button indicates a number. When either button is pressed, the button lose their functionality and become arrow keys. The arrow keys are used to navigate to a desired character. When a character is left unmoved for more than a second, the system prints out the character. After the character is printed, the right and left buttons return to being an alpha and a numeric key respectively.
-The reference point for the alpha key is "A". Pushing the left arrow moves through the alphabets in a reverse order( A to Z,Y,X...) while pushing the right arrow moves through the alphabets the conventional way( A to B,C,D...).
 
 ## Evaluation
 
