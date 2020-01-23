@@ -253,7 +253,14 @@ Principle of Design[2]
 2. Feedback
 
 ### Morse Code
-As mentioned earlier in the definition of the problem, the station in Earth can only communicate using Morse Code. Hence it is important we know what the Morse Code is all about. According to Wikipedia, Morse Code is a method used in telecommunication to excode text characters as standardized sequences of two different signal durations, called "dots" and "dashes". Morse Code is named after Samuel B.F Morse, an inventor of the telegraph.
+As mentioned earlier in the definition of the problem, the station in Earth can only communicate using Morse Code. Hence it is important we know what the Morse Code is all about. According to Wikipedia, Morse Code is a method used in telecommunication to excode text characters as standardized sequences of two different signal durations, called "dots" and "dashes". Morse Code is named after Samuel B.F Morse, an inventor of the telegraph.[3]
+
+1. The length of a dot is one second(unit).
+2. A dash is three seconds(units).
+3. The space between parts of the same letter is one second(unit).
+4. The space between letters three seconds(units).
+5. The space between letters seven seconds(units).
+
 
 ## Evaluation
 
@@ -261,4 +268,9 @@ As mentioned earlier in the definition of the problem, the station in Earth can 
 [1] Retrieved from https://ib.compscihub.net/wp-content/uploads/2018/06/1.2.12.pdf on 25th November 2019.
 
 [2] Retrieved from https://www.youtube.com/watch?v=yY96hTb8WgI on 25th November 2019.
+
+[3] Retrieved from https://en.wikipedia.org/wiki/Morse_code on 23rd January 2020.
+
+[4] Retrieved from https://en.wikipedia.org/wiki/Morse_code#/media/File:International_Morse_Code.svg on 23rd January 2020.
+
 
