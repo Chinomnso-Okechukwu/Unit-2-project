@@ -36,6 +36,7 @@ The right key has the number "1" and the right arrow below it. This key only inp
 Pushing the left button indicates that one is entering an alphabet and pushing the right button indicates a number. When either button is pressed, the button lose their functionality and become arrow keys. The arrow keys are used to navigate to a desired character. When a character is left unmoved for more than a second, the system prints out the character. After the character is printed, the right and left buttons return to being an alpha and a numeric key respectively.
 The reference point for the alpha key is "A". Pushing the left arrow moves through the alphabets in a reverse order( A to Z,Y,X...) while pushing the right arrow moves through the alphabets the conventional way( A to B,C,D...).
 
+### Flowchart for the English Input System
 ![Englishinput](englishinput2.png)
 ![Englishinput](englishinput3.png)
 ![Englishinput](englishinput4.png)
@@ -251,6 +252,8 @@ Principle of Design[2]
 1. Discoverability
 2. Feedback
 
+### Morse Code
+As mentioned earlier in the definition of the problem, the station in Earth can only communicate using Morse Code. Hence it is important we know what the Morse Code is all about. According to Wikipedia, Morse Code is a method used in telecommunication to excode text characters as standardized sequences of two different signal durations, called "dots" and "dashes". Morse Code is named after Samuel B.F Morse, an inventor of the telegraph.
 
 ## Evaluation
 
