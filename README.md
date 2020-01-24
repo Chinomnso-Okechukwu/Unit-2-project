@@ -302,6 +302,9 @@ Seven-segment encoders are widely used in digital clocks, electronic meters, bas
 ![7segment](7segment.png)
 **Fig. 11** This figure shows the initial plans for developing the 7 segment decoder.
 
+### Machine Instruction Cycle
+This is also known as the Fetch-Decode-Execute Cycle. It is the cycle which the central processing unit (CPU) follows from boot-up until the computer has shut down in order to process instructions. It is composed of three main stages: the fetch stage, the decode stage, and the execute stage[9].
+
 ### Morse Code
 As mentioned earlier in the definition of the problem, the station in Earth can only communicate using Morse Code. Hence it is important we know what the Morse Code is all about. According to Wikipedia, Morse Code is a method used in telecommunication to excode text characters as standardized sequences of two different signal durations, called "dots" and "dashes". Morse Code is named after Samuel B.F Morse, an inventor of the telegraph[3].
 
@@ -661,3 +664,5 @@ This link provides videos showing evidence of the working system.
 [7] Retrieved from https://ib.compscihub.net/wp-content/uploads/2018/07/3.1.6.pdf on 24th January 2020.
 
 [8] Retrieved from https://en.wikipedia.org/wiki/Seven-segment_display on 24th January 2020.
+
+[9] Retrieved from https://en.wikipedia.org/wiki/Instruction_cycle on 24th January 2020.
