@@ -18,7 +18,20 @@ So here, we basically have steps in this communication system:
 The two push buttons are used to input the message and to convert messages from one language to another.
 The light bulbs are used to read messages from Morse code and Binary. The use of the light are more defined under Binary amd Morse sections.
 
-I am going to make use of the arduino c to develop this Martian decoder. 
+I am going to make use of the arduino c to develop this Martian decoder.
+| BAD POINTS                              | BAD POINTS                                             |   |
+|-----------------------------------------|--------------------------------------------------------|---|
+| BASH                                    | ARDUINO C                                              | . |
+| Complicated syntax                      | Variable types are more                                |   |
+|                                         | Lower Level, Closer to hardware(Means more             |   |
+|                                         | complicated, less intuitive).                          |   |
+|                                         |                                                        |   |
+| GOOD POINTS                             | GOOD POINTS                                            |   |
+| BASH                                    | ARDUINO C                                              |   |
+| It connects to the terminal file system | Integrated with PORTABLE HARDWARE(ARDUINO)             |   |
+| It is a scripting language              | It is generally simpler                                |   |
+|                                         | Various arduino resources are readily available online |   |
+
 
 ### Success criteria
 It must be able to communicate with people easily across planets.
