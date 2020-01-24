@@ -72,8 +72,12 @@ The English Input System is a vital part of this communication system. This is b
 ### Flowchart for the Morse-English Conversion
 ![Morse-English](MorsetoEnglish.png)
 
+**Fig. 8** The flowchart shows the steps in converting from Morse to English.
+
 ### Flowchart for the Binary-English Conversion
 ![Binary-English](FCbinToEng.jpg)
+
+**Fig. 9** The flowchart shows the steps in converting from Binary to English.
 
 ### Test Plan
 ![TestPlan](testplan.png)
@@ -495,7 +499,8 @@ void dash(){
   delay(100000);  
 }
 ```
-The important part of this code is the use of the switch case. The switch case controls the flow of programs by allowing programmers to specify different code that should be executed in various conditions[5]. Without a break statement, the switch statement will continue executing the following expressions ("falling-through") until a break, or the end of the switch statement is reached[6].
+The important part of this code is the use of the switch case. The switch case controls the flow of programs by allowing programmers to specify different code that should be executed in various conditions[5].
+Without a break statement, the switch statement will continue executing the following expressions ("falling-through") until a break, or the end of the switch statement is reached[6].
 
 ### Snippet Code for Morse-English Conversion 
 ```.c
@@ -618,15 +623,15 @@ This part of the code prints the character based on the corresponding binary cod
 ## Evaluation
 I am evaluating against my proposed test plan and success criteria. We were able to acheive all the actions we wanted to execute. All the codes are work as the should.
 
-Further Improvements
+### Further Improvements
 
 1. For English to Binary, the code should be dry.
 2. Except for English to Morse, the characters should be arranged in the order of frequently used characters to help increase efficiency.
 3. We should add the debounce function in some of the codes as the LCD was printing two of the same value when the button was pressed.
 
-Evidence 
-
+### Evidence
 https://drive.google.com/drive/u/1/folders/1GP54CQTwInArqjo29mlwqzjRytWH70al
+
 This link provides videos showing evidence of the working system.
 
 
