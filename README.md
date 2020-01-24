@@ -624,6 +624,10 @@ Further Improvements
 2. Except for English to Morse, the characters should be arranged in the order of frequently used characters to help increase efficiency.
 3. We should add the debounce function in some of the codes as the LCD was printing two of the same value when the button was pressed.
 
+Evidence 
+
+https://drive.google.com/drive/u/1/folders/1GP54CQTwInArqjo29mlwqzjRytWH70al
+This link provides videos showing evidence of the working system.
 
 
 ## References
