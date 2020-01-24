@@ -19,6 +19,7 @@ The two push buttons are used to input the message and to convert messages from 
 The light bulbs are used to read messages from Morse code and Binary. The use of the light are more defined under Binary amd Morse sections.
 
 I am going to make use of the arduino c to develop this Martian decoder.
+
 | BAD POINTS                              | BAD POINTS                                             |   |
 |-----------------------------------------|--------------------------------------------------------|---|
 | BASH                                    | ARDUINO C                                              | . |
