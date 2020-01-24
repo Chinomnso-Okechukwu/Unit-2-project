@@ -60,6 +60,7 @@ The English Input System is a vital part of this communication system. This is b
 ### Flowchart for the English-Binary Conversion
 
 ### Flowchart for the Binary-English Conversion
+![Binary-English](FCbinToEng.jpg)
 
 ### Test Plan
 ![TestPlan](testplan.png)
