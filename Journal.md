@@ -13,3 +13,5 @@ Reflection for Nov 19.
 Reflection for Nov 20.
 1. More practice on logic gates and Boolean operators. Interpreting them from a diagram.
  
+Reflection from Nov 20 till January 24.
+1. All new things learnt have been added to the development part of the Readme
