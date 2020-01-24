@@ -321,6 +321,284 @@ As mentioned earlier in the definition of the problem, the station in Earth can 
 4. The space between letters three seconds(units).
 5. The space between letters seven seconds(units).
 
+### Code for English-Morse Conversion
+```.c
+    for (int i=0; i<text.length(); i++){
+      letter = text[i];
+      Serial.print(letter);
+      switch (letter) {
+    	case 'A':
+        	dot();
+      		dash( );
+        	delay(300000);
+            break;
+    	case 'B':
+     		dash();
+        	dot();
+        	dot();
+        	dot();
+        	delay(300000);
+            break;
+    	case 'C':
+      		dash();
+         	dot();
+      		dash();
+         	dot();
+        	delay(300000);
+            break;
+    	case 'D':
+       		dash();
+          	dot();
+          	dot();
+        	delay(300000);
+            break;
+    	case 'E':
+         	dot();
+        	delay(300000);
+            break;
+    	case 'F':
+        	dot();
+        	dot();
+     		dash();
+        	dot();
+        	delay(300000);
+            break;
+    	case 'G':
+     		dash();
+     		dash();
+       		dot();
+        	delay(300000);
+            break;
+    	case 'H':
+       		dot();
+       		dot();
+       		dot();
+       		dot();
+        	delay(300000);
+            break;
+    	case 'I':
+       		dot();
+       		dot();
+        	delay(300000);
+            break;
+    	case 'J':
+        	dot();
+     		dash();
+     		dash();
+     		dash();
+        	delay(300000);
+            break;
+    	case 'K':
+     		dash();
+        	dot();
+     		dash();
+        	delay(300000);
+            break;
+    	case 'L':
+        	dot();
+     		dash();
+       		dot();
+       		dot();
+        	delay(300000);
+            break;
+    	case 'M':
+     		dash();
+     		dash();
+        	delay(300000);
+            break;
+    	case 'N':
+     		dash();
+        	dot();
+        	delay(300000);
+            break;
+    	case 'O':
+     		dash();
+     		dash();
+     		dash();
+        	delay(300000);
+            break;
+    	case 'P':
+       		dot();
+     		dash();
+     		dash();
+       		dot();
+        	delay(300000);
+            break;
+    	case 'Q':
+     		dash();
+     		dash();
+        	dot();
+     		dash();
+        	delay(300000);
+            break;
+    	case 'R':
+        	dot();
+     		dash();
+      		dot();
+        	delay(300000);
+            break;
+    	case 'S':
+      		dot();
+      		dot();
+      		dot();
+        	delay(300000);
+            break;
+    	case 'T':
+     		dash();
+        	delay(300000);
+            break;
+    	case 'U':
+      		dot();
+      		dot();
+     		dash();
+        	delay(300000);
+            break;
+    	case 'V':
+      		dot();
+      		dot();
+      		dot();
+     		dash();
+        	delay(300000);
+            break;
+    	case 'W':
+      		dot();
+     		dash();
+     		dash();
+        	delay(300000);
+            break;
+    	case 'X':
+     		dash();
+      		dot();
+      		dot();
+     		dash();
+        	delay(300000);
+            break;
+    	case 'Y':
+     		dash();
+      		dot();
+     		dash();
+     		dash();
+        	delay(300000);
+            break;
+    	case 'Z':
+     		dash();
+     		dash();
+      		dot();
+      		dot();
+        	delay(300000);
+            break;
+    	case '0':
+     		dash();
+     		dash();
+     		dash();
+     		dash();
+     		dash();
+        	delay(300000);
+            break;
+    	case '1':
+      		dot();
+     		dash();
+     		dash();
+     		dash();
+     		dash();
+        	delay(300000);
+            break;
+    	case '2':
+      		dot();
+      		dot();
+     		dash();
+     		dash();
+     		dash();
+        	delay(300000);
+            break;
+    	case '3':
+      		dot();
+      		dot();
+      		dot();
+     		dash();
+     		dash();
+        	delay(300000);
+            break;
+    	case '4':
+      		dot();
+      		dot();
+      		dot();
+      		dot();
+     		dash();
+        	delay(300000);
+            break;
+    	case '5':
+      		dot();
+      		dot();
+      		dot();
+      		dot();
+      		dot();
+        	delay(300000);
+            break;
+    	case '6':
+     		dash();
+      		dot();
+      		dot();
+      		dot();
+      		dot();
+        	delay(300000);
+            break;
+    	case '7':
+     		dash();
+     		dash();
+      		dot();
+      		dot();
+      		dot();
+        	delay(300000);
+            break;
+    	case '8':
+     		dash();
+     		dash();
+     		dash();
+      		dot();
+      		dot();
+        	delay(300000);
+            break;
+    	case '9':
+        	dash();
+         	dash();
+         	dash();
+         	dash();
+         	dot();
+        	delay(300000);
+            break;
+      }
+    }
+    text  = "";
+  }else if (key == "SPACE") {
+   text+= " ";
+  }
+  else {
+    text += key; // Append char to message
+  }
+  // Always reset index of array after selection
+  index = 0;
+}
+    
+void dot(){
+  //in this function blink the light for one second
+  Serial.print("I am at dot function");
+  digitalWrite(Aled, HIGH);
+  delay(100000);
+  digitalWrite(Aled, LOW);
+  delay(100000);
+}
+    
+void dash(){
+  //in this function blink the light for three second
+    Serial.print("I am at dash function");
+
+  digitalWrite(Aled, HIGH);
+  delay(300000);
+  digitalWrite(Aled, LOW);
+  delay(100000);  
+}
+```
 
 ## Evaluation
 
