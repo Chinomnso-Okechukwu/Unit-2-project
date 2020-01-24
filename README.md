@@ -61,6 +61,8 @@ The English Input System is a vital part of this communication system. This is b
 
 ### Flowchart for the Binary-English Conversion
 
+### Test Plan
+
 Development
 -----------
 ## A traffic light with arduino 
