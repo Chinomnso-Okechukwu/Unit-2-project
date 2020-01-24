@@ -292,6 +292,15 @@ Principle of Design[2]
 1. Discoverability
 2. Feedback
 
+### What is Protocol?
+Protocol according to IB CompSci Hub is a set of rules or data communication over a network [7].
+
+### 7 segment decoder
+ACoording to Wikipedia, It is a form of electronic display device for displaying decimal numerals that is an alternative to the more complex dot matrix displays.
+Seven-segment encoders are widely used in digital clocks, electronic meters, basic calculators, and other electronic devices that display numerical information[8].
+
+
+
 ### Morse Code
 As mentioned earlier in the definition of the problem, the station in Earth can only communicate using Morse Code. Hence it is important we know what the Morse Code is all about. According to Wikipedia, Morse Code is a method used in telecommunication to excode text characters as standardized sequences of two different signal durations, called "dots" and "dashes". Morse Code is named after Samuel B.F Morse, an inventor of the telegraph[3].
 
@@ -647,3 +656,7 @@ This link provides videos showing evidence of the working system.
 [5] Retrieved from https://www.arduino.cc/reference/en/language/structure/control-structure/switchcase/ on 24th January 2020.
 
 [6] Retrieved from https://www.arduino.cc/reference/en/language/structure/control-structure/switchcase/ on 24th January 2020.
+
+[7] Retrieved from https://ib.compscihub.net/wp-content/uploads/2018/07/3.1.6.pdf on 24th January 2020.
+
+[8] Retrieved from https://en.wikipedia.org/wiki/Seven-segment_display on 24th January 2020.
