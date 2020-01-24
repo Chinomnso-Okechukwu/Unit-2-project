@@ -4,12 +4,21 @@
 ## Planning
 
 ### Definition of the problem
-This definitely came as a surprise. A war against aliens on Mars. After two scares of a potential World War 3, it was never a concern for people that we would start fighting against other planets. It is the first inter-planetry war and it will be called the Stars Wars(just like the well-known movie). Aware of the extraordinary abilities of the Martians and in desperation not to lose, NASA has demanded drafting about a quarter of the world's population to fight the war. Many families of the selected people are reluctant to send off their relatives since this war is beyond our planet. They only way they can be comfortable with this decision is if a two-way commuincation can be established between them and their relative(s). This means  creating a stable means of communication between the Earth and Mars.  NASA has already set up many communication stations around the world and has said that it will set up its portable station immediately they arrive on Mars. Unfortunately, The station in Earth can only communicate using Morse Code and the station on Mars can only communicate in Binary Code. Humans are not conversant with these languages. The identified clients for this project are the people on Earth who would like to keep communicating with one or more of their relatives in the war and also those in the war. We are talikng about the whole Earth basically.
+This definitely came as a surprise. A war against aliens on Mars. After two scares of a potential World War 3, it was never a concern for people that we would start fighting against other planets. It is the first inter-planetry war and it will be called the Stars Wars(just like the well-known movie). Aware of the extraordinary abilities of the Martians and in desperation not to lose, NASA has demanded drafting about a quarter of the world's population to fight the war. Many families of the selected people are reluctant to send off their relatives since this war is beyond our planet. They only way they can be comfortable with this decision is if a two-way commuincation can be established between them and their relative(s). This means  creating a stable means of communication between the Earth and Mars.  NASA has already set up many communication stations around the world and the Moon and has said that it will set up its portable station immediately they arrive on Mars. Unfortunately, The station in Earth can only communicate using Morse Code and the station on the Moon can only communicate in Binary Code. Humans are not conversant with these languages. The identified clients for this project are the people on Earth who would like to keep communicating with one or more of their relatives in the war and also those in the war. We are talikng about the whole Earth basically.
 
 ### Proposed solution
-We are going to create a device that ensures stable communication between the people on Earth and on Mars. It will be called "the Martian Decoder". 
-I am going to make use of the arduino c to develop this Martian decoder. 
+We are going to create a device(communication system) that allows the stations to communicate seamlessly using English. It will be called "the Martian Decoder". Through the stations on Earth and on the Moon, we would need provide communication with the stations on Mars. The device is limited to two push buttons and lights are readily available. Over this communication system, we will be making use of three languages: English, Morse and Binary. On Earth, the humans input English into the device. The station at Earth only communicates in Morse so a conversion is required from English to Code. The message is transmitted from the station on Earth to the one on the Moon. The station on the Moon only communicates in binary so the Morse code has to be transmitted to Binary. There is no direct conversion from Morse to Binary so the Morse is initially converted back to English before the English to converted to Binary. The recipients of the message on Mars do not understand Binary and a conversion from Binary to English is required at the station on Mars. 
+So here, we basically have steps in this communication system:
+1. Input English.
+2. English is convert to Morse.
+3. Morse is re-converted to English.
+4. English is converted to Binary.
+5. Binary is converted to English.
 
+The two push buttons are used to input the message and to convert messages from one language to another.
+The light bulbs are used to read messages from Morse code and Binary. The use of the light are more defined under Binary amd Morse sections.
+
+I am going to make use of the arduino c to develop this Martian decoder. 
 
 ### Success criteria
 It must be able to communicate with people easily across planets.
@@ -260,7 +269,7 @@ As mentioned earlier in the definition of the problem, the station in Earth can 
 
 | CHARACTER |      |      |      |      |      |
 |--------|------|------|------|------|------|
-| A      | DOT  | DASH |      |      |      |
+| A      | DASH | DASH |      |      |      |
 | B      | DASH | DOT  | DOT  | DOT  |      |
 | C      | DASH | DOT  | DASH | DOT  |      |
 | D      | DASH | DOT  | DOT  |      |      |
