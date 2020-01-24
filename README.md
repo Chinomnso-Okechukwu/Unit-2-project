@@ -340,6 +340,10 @@ As mentioned earlier in the definition of the problem, the station in Earth can 
 4. The space between letters three seconds(units).
 5. The space between letters seven seconds(units).
 
+### Binary System
+![Tabela1](tabela1.png)
+![Tabela2](tabela2.png)
+
 ### Snippet Code for the English Input System
 ```.c
 #include <LiquidCrystal.h>
