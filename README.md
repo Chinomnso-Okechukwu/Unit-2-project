@@ -37,10 +37,9 @@ Pushing the left button indicates that one is entering an alphabet and pushing t
 The reference point for the alpha key is "A". Pushing the left arrow moves through the alphabets in a reverse order( A to Z,Y,X...) while pushing the right arrow moves through the alphabets the conventional way( A to B,C,D...).
 
 ### Flowchart for the English Input System
-![Englishinput](englishinput2.png)
-![Englishinput](englishinput3.png)
-![Englishinput](englishinput4.png)
-**Fig. 7,8,9** These flowcharts show the process of developing the English Input System.
+![EnglishInputSytsem](EnglishInputSystem.png)
+
+**Fig. 7** The flowchart shows the process of developing the English Input System.
 
 Development
 -----------
