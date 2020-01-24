@@ -1,4 +1,6 @@
-# Unit-2-project
+# The Martian Decoder
+![MartianDecoder](martiandecoder.png)
+
 ## Planning
 
 ### Definition of the problem
