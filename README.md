@@ -69,7 +69,7 @@ The reference point for the alpha key is "A". Pushing the left arrow moves throu
 The English Input System is a vital part of this communication system. This is because the people on Earth will initially input messages in English and also English is also the intermediary when converting from Morse to English. 
 
 ### Flowchart for the Morse-English Conversion
-
+![Morse-English](MorsetoEnglish.png)
 
 ### Flowchart for the Binary-English Conversion
 ![Binary-English](FCbinToEng.jpg)
