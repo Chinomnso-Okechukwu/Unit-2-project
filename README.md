@@ -37,6 +37,7 @@ I am going to make use of the arduino c to develop this Martian decoder.
 ### Success criteria
 It must be able to communicate with people easily across planets.
 Only two buttons should be used.
+System allows English to be translated to Morse with the use of lights.
 
 ## Solution Overview
 
@@ -615,7 +616,14 @@ void convertbin(){
 This part of the code prints the character based on the corresponding binary code.
 
 ## Evaluation
-I am evaluating against my proposed test plan. We were able to acheive all the actions we wanted to execute. 
+I am evaluating against my proposed test plan and success criteria. We were able to acheive all the actions we wanted to execute. All the codes are work as the should.
+
+Further Improvements
+
+1. For English to Binary, the code should be dry.
+2. Except for English to Morse, the characters should be arranged in the order of frequently used characters to help increase efficiency.
+3. We should add the debounce function in some of the codes as the LCD was printing two of the same value when the button was pressed.
+
 
 
 ## References
