@@ -145,7 +145,7 @@ NOW LETSSSSSS GOOOOOO!!! VROOM VROOM!!
 ### Conversion of base 10 to base 2
 This was very important to understand in the creation of our next program.
 ![BaseChange](baseconversion.png)
-**Fig. 3** This diagram shows how to convert numbers from base 10 to base 2.
+**Fig. 10** This diagram shows how to convert numbers from base 10 to base 2.
 ### Conversion of base 10 to other bases
 1. Get the number.
 1. Divide the number continuously by the new base until you get zero.
@@ -299,7 +299,8 @@ Protocol according to IB CompSci Hub is a set of rules or data communication ove
 ACoording to Wikipedia, It is a form of electronic display device for displaying decimal numerals that is an alternative to the more complex dot matrix displays.
 Seven-segment encoders are widely used in digital clocks, electronic meters, basic calculators, and other electronic devices that display numerical information[8].
 
-
+![7segment](7segment.png)
+**Fig. 11** This figure shows the initial plans for developing the 7 segment decoder.
 
 ### Morse Code
 As mentioned earlier in the definition of the problem, the station in Earth can only communicate using Morse Code. Hence it is important we know what the Morse Code is all about. According to Wikipedia, Morse Code is a method used in telecommunication to excode text characters as standardized sequences of two different signal durations, called "dots" and "dashes". Morse Code is named after Samuel B.F Morse, an inventor of the telegraph[3].
