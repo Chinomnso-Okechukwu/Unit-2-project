@@ -321,6 +321,68 @@ As mentioned earlier in the definition of the problem, the station in Earth can 
 4. The space between letters three seconds(units).
 5. The space between letters seven seconds(units).
 
+### Code for the English Input System
+```.c
+#include <LiquidCrystal.h>
+
+String text = "";
+int index = 0; 
+// add all the letters and digits to the keyboard
+String keyboard[] = {"SEND", "E", "T", "A", "O", "I", "N", "S", "R", "H", "L", "D", "C", "U", "M", "F", "P", "G", "W", "Y", "B", "V", "K", "X", "J", "Q", "Z", "SPACE", "DEL", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"};
+
+int letter;
+int numOptions = 39; 
+int Aled = 10;
+
+LiquidCrystal lcd(13, 12, 7, 6, 5, 4);
+
+void setup()
+{
+  Serial.begin(9600);
+  lcd.begin(16, 2);
+  attachInterrupt(0, changeLetter, RISING);//button A in port 2
+  attachInterrupt(1, selected, RISING);//button B in port 3
+  pinMode(Aled, OUTPUT);
+  lcd.setCursor(0, 1);
+  lcd.print("Starting");
+  delay(1000);
+  lcd.clear();
+}
+
+void loop()
+{
+  lcd.setCursor(0, 0);
+  lcd.print(keyboard[index]);
+  
+  lcd.setCursor(0, 1);
+  lcd.print(text);
+  delay(100);
+  lcd.clear();
+}
+
+void changeLetter(){
+  index++;
+  // The if condition is checking if the user has gone through the whole list
+  // If yes, the character selection is reset to the first index (0).
+  if (index>numOptions){
+  	index=0; 
+  } 
+}
+
+void selected(){
+  String key = keyboard[index];
+  // If DEL key is selected, remove last appended char to text
+  if (key == "DEL") {
+    int len = text.length();
+    text.remove(len-1);
+  }
+  // If SEND is selected, reset the text variable to ""
+  else if (key == "SEND") {
+    Serial.println("Message sent");
+    lcd.clear();
+    lcd.print("Message sent");
+```
+
 ### Code for English-Morse Conversion
 ```.c
     for (int i=0; i<text.length(); i++){
@@ -354,193 +416,6 @@ As mentioned earlier in the definition of the problem, the station in Earth can 
             break;
     	case 'E':
          	dot();
-        	delay(300000);
-            break;
-    	case 'F':
-        	dot();
-        	dot();
-     		dash();
-        	dot();
-        	delay(300000);
-            break;
-    	case 'G':
-     		dash();
-     		dash();
-       		dot();
-        	delay(300000);
-            break;
-    	case 'H':
-       		dot();
-       		dot();
-       		dot();
-       		dot();
-        	delay(300000);
-            break;
-    	case 'I':
-       		dot();
-       		dot();
-        	delay(300000);
-            break;
-    	case 'J':
-        	dot();
-     		dash();
-     		dash();
-     		dash();
-        	delay(300000);
-            break;
-    	case 'K':
-     		dash();
-        	dot();
-     		dash();
-        	delay(300000);
-            break;
-    	case 'L':
-        	dot();
-     		dash();
-       		dot();
-       		dot();
-        	delay(300000);
-            break;
-    	case 'M':
-     		dash();
-     		dash();
-        	delay(300000);
-            break;
-    	case 'N':
-     		dash();
-        	dot();
-        	delay(300000);
-            break;
-    	case 'O':
-     		dash();
-     		dash();
-     		dash();
-        	delay(300000);
-            break;
-    	case 'P':
-       		dot();
-     		dash();
-     		dash();
-       		dot();
-        	delay(300000);
-            break;
-    	case 'Q':
-     		dash();
-     		dash();
-        	dot();
-     		dash();
-        	delay(300000);
-            break;
-    	case 'R':
-        	dot();
-     		dash();
-      		dot();
-        	delay(300000);
-            break;
-    	case 'S':
-      		dot();
-      		dot();
-      		dot();
-        	delay(300000);
-            break;
-    	case 'T':
-     		dash();
-        	delay(300000);
-            break;
-    	case 'U':
-      		dot();
-      		dot();
-     		dash();
-        	delay(300000);
-            break;
-    	case 'V':
-      		dot();
-      		dot();
-      		dot();
-     		dash();
-        	delay(300000);
-            break;
-    	case 'W':
-      		dot();
-     		dash();
-     		dash();
-        	delay(300000);
-            break;
-    	case 'X':
-     		dash();
-      		dot();
-      		dot();
-     		dash();
-        	delay(300000);
-            break;
-    	case 'Y':
-     		dash();
-      		dot();
-     		dash();
-     		dash();
-        	delay(300000);
-            break;
-    	case 'Z':
-     		dash();
-     		dash();
-      		dot();
-      		dot();
-        	delay(300000);
-            break;
-    	case '0':
-     		dash();
-     		dash();
-     		dash();
-     		dash();
-     		dash();
-        	delay(300000);
-            break;
-    	case '1':
-      		dot();
-     		dash();
-     		dash();
-     		dash();
-     		dash();
-        	delay(300000);
-            break;
-    	case '2':
-      		dot();
-      		dot();
-     		dash();
-     		dash();
-     		dash();
-        	delay(300000);
-            break;
-    	case '3':
-      		dot();
-      		dot();
-      		dot();
-     		dash();
-     		dash();
-        	delay(300000);
-            break;
-    	case '4':
-      		dot();
-      		dot();
-      		dot();
-      		dot();
-     		dash();
-        	delay(300000);
-            break;
-    	case '5':
-      		dot();
-      		dot();
-      		dot();
-      		dot();
-      		dot();
-        	delay(300000);
-            break;
-    	case '6':
-     		dash();
-      		dot();
-      		dot();
-      		dot();
-      		dot();
         	delay(300000);
             break;
     	case '7':
@@ -600,6 +475,104 @@ void dash(){
 }
 ```
 
+### Code for Morse-English Conversion
+```.c
+  //A
+  if (letter == " .-"){
+    text += "a";
+  }
+  
+  //B
+  if (letter == " -..."){
+    text += "b";
+  }
+  
+  //C
+  if (letter == " -.-."){
+    text += "c";
+  }
+  
+  //9
+  if (letter == " ----."){
+    text += "9";
+  }
+  
+  //0
+  if (letter == " -----"){
+    text += "";
+  }
+  ```
+  
+### Code for English-Binary Conversion
+```.c
+void convertbin(){
+
+// if 2 lights ON = 1, if 1 light ON = 0
+// if 2 lights OFF break
+// if 1 light ON 1s  = 0, if 1 lights ON 2s = 00…
+//  if 2 light ON 1s  = 1, if 1 lights ON 2s = 11…
+  
+  String code; 
+  for(int i=0; i<text.length();i++){
+    letters = text[i];
+    Serial.print(letters);
+      switch (letters) {
+
+         case 'A':
+           //code  = "001010";
+
+         digitalWrite(ledPort, LOW);
+         digitalWrite(ledPort2, HIGH);
+         delay(200000);
+         digitalWrite(ledPort, LOW);
+         digitalWrite(ledPort2, HIGH);
+         delay(200000);
+       digitalWrite(ledPort, HIGH);
+       digitalWrite(ledPort2, HIGH);
+         delay(200000);
+         digitalWrite(ledPort, LOW);
+         digitalWrite(ledPort2, HIGH);
+         delay(200000);
+         digitalWrite(ledPort, HIGH);
+         digitalWrite(ledPort2, HIGH);
+         delay(200000);
+         digitalWrite(ledPort, LOW);
+         digitalWrite(ledPort2, HIGH);
+         delay(200000);
+         digitalWrite(ledPort, LOW);
+         digitalWrite(ledPort2, LOW);
+         delay(200000);
+         break;
+      
+       case 'B':
+         //code = "001011"; 
+         digitalWrite(ledPort, LOW);
+         digitalWrite(ledPort2, HIGH);
+         delay(200000);
+         digitalWrite(ledPort, LOW);
+         digitalWrite(ledPort2, HIGH);
+         delay(200000);
+       digitalWrite(ledPort, HIGH);
+       digitalWrite(ledPort2, HIGH);
+         delay(200000);
+         digitalWrite(ledPort, LOW);
+         digitalWrite(ledPort2, HIGH);
+         delay(200000);
+         digitalWrite(ledPort, HIGH);
+         digitalWrite(ledPort2, HIGH);
+         delay(200000);
+         digitalWrite(ledPort, HIGH);
+         digitalWrite(ledPort2, HIGH);
+         delay(200000);
+         digitalWrite(ledPort, LOW);
+         digitalWrite(ledPort2, LOW);
+         delay(200000);
+         break;
+```
+### Code for Binary-English Conversion
+```.c
+
+```
 ## Evaluation
 
 ## References
