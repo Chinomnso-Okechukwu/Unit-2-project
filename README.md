@@ -326,7 +326,7 @@ As mentioned earlier in the definition of the problem, the station in Earth can 
 4. The space between letters three seconds(units).
 5. The space between letters seven seconds(units).
 
-### Code for the English Input System
+### Snippet Code for the English Input System
 ```.c
 #include <LiquidCrystal.h>
 
@@ -388,7 +388,7 @@ void selected(){
     lcd.print("Message sent");
 ```
 
-### Code for English-Morse Conversion
+### Snippet Code for English-Morse Conversion
 ```.c
     for (int i=0; i<text.length(); i++){
       letter = text[i];
@@ -479,8 +479,9 @@ void dash(){
   delay(100000);  
 }
 ```
+The important part of this code is the use of the switch case. The switch case controls the flow of programs by allowing programmers to specify different code that should be executed in various conditions[5]. Without a break statement, the switch statement will continue executing the following expressions ("falling-through") until a break, or the end of the switch statement is reached[6].
 
-### Code for Morse-English Conversion
+### Snippet Code for Morse-English Conversion 
 ```.c
   //A
   if (letter == " .-"){
@@ -507,8 +508,9 @@ void dash(){
     text += "";
   }
   ```
+  This code justs prints the character based on the corresponding series of dots and dashes(Morse Code).
   
-### Code for English-Binary Conversion
+### Snippet Code for English-Binary Conversion
 ```.c
 void convertbin(){
 
@@ -574,11 +576,32 @@ void convertbin(){
          delay(200000);
          break;
 ```
-### Code for Binary-English Conversion
+### Snippet Code for Binary-English Conversion
 ```.c
-
+ } else if (character == "001001") {
+    msg += "9";
+  } else if (character == "001010") {
+    msg += "A";
+  } else if (character == "001011") {
+    msg += "B";
+  } else if (character == "001100") {
+    msg += "C";
+  } else if (character == "001101") {
+    msg += "D";
+  } else if (character == "001110") {
+    msg += "E";
+  } else if (character == "001111") {
+    msg += "F";
+  } else if (character == "010000") {
+    msg += "G";
+  } else if (character == "010001") {
+    msg += "H";
 ```
+This part of the code prints the character based on the corresponding binary code.
+
 ## Evaluation
+I am evaluating against my proposed test plan. We were able to acheive all the actions we wanted to execute. 
+
 
 ## References
 [1] Retrieved from https://ib.compscihub.net/wp-content/uploads/2018/06/1.2.12.pdf on 25th November 2019.
@@ -589,4 +612,6 @@ void convertbin(){
 
 [4] Retrieved from https://en.wikipedia.org/wiki/Morse_code#/media/File:International_Morse_Code.svg on 23rd January 2020.
 
+[5] Retrieved from https://www.arduino.cc/reference/en/language/structure/control-structure/switchcase/ on 24th January 2020.
 
+[6] Retrieved from https://www.arduino.cc/reference/en/language/structure/control-structure/switchcase/ on 24th January 2020.
