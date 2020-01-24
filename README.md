@@ -304,6 +304,12 @@ Seven-segment encoders are widely used in digital clocks, electronic meters, bas
 ![7segment](7segment.png)
 **Fig. 11** This figure shows the initial plans for developing the 7 segment decoder.
 
+![7segment1](7segment1.png)
+**Fig. 12** This figure shows the 7 segment decoder indicating the number 0.
+
+![7segment0](7segment0.png)
+**Fig. 13** This figure shows the 7 segment decoder indicating the number 1.
+
 ### Machine Instruction Cycle
 This is also known as the Fetch-Decode-Execute Cycle. It is the cycle which the central processing unit (CPU) follows from boot-up until the computer has shut down in order to process instructions. It is composed of three main stages: the fetch stage, the decode stage, and the execute stage[9].
 
